@@ -39,7 +39,8 @@ Uses Bootstrap for styling and Google Fonts for typography.
 
 JavaScript functions to validate email format and ensure password and confirm password fields match.
 
-<img width="960" alt="Screenshot 2024-07-30 091159" src="https://github.com/user-attachments/assets/a8bd0dc5-3bdb-4c8f-bdb4-9401497e33eb">
 
 <img width="960" alt="Screenshot 2024-07-30 091100" src="https://github.com/user-attachments/assets/e79b9f9e-f6ca-4f21-9612-7a862f0196d1">
+
+<img width="960" alt="Screenshot 2024-07-30 091159" src="https://github.com/user-attachments/assets/a8bd0dc5-3bdb-4c8f-bdb4-9401497e33eb">
 
