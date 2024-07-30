@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+section#req {
+    width: 100;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(200deg, #A100FF,#FFFFD0,#FFB6FF,#9FFBFB,#FFB6FF,#FFFFD0, #A100FF);
+}
+
+section#req aside {
+   background-color: rgba(255, 255, 255, 0.9);
+   padding: 30px;
+   border-radius: 20px;
+   width: 400px;
+   border: rgba(255, 255, 255, 0.4) solid thin;
+   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5); 
+}
+
+section#req aside h1 {
+    font-size: 45px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section#req aside h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #5f5f5f; 
+}
+
+section#req aside h3 a {
+    color: #FF55BB;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.formGroup {
+    margin: 10px;
+    border-bottom: #0079FF solid 2px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.formGroup.invalid {
+   border-bottom-color: #FF55BB; 
+}
+
+.formGroup.valid {
+    border-bottom-color: #47b101; 
+ }
+
+.formGroup svg {
+    width: 20px;
+    height: 20px;
+}
+  
+.formGroup svg path,
+.formGroup svg circle {
+    fill:#FF55BB;
+}
+
+.formGroup svg path.bi {
+    fill: none;
+}
+
+.formGroup.invalid svg path,
+.formGroup.invalid svg circle {
+    fill: #FF55BB;
+}
+
+.formGroup.invalid svg path.bi {
+    fill: none;
+}
+
+.formGroup.valid svg path,
+.formGroup.valid svg circle {
+    fill: #47b101;
+}
+
+.formGroup.valid svg path.bi {
+    fill: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    background:linear-gradient(230deg,  #FF55BB, #0079FF) ;
+}
